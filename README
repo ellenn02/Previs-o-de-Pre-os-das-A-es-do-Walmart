@@ -1,0 +1,25 @@
+# Previsão de Preços das Ações do Walmart com ARIMA
+
+## Descrição
+Este projeto visa prever os preços das ações do Walmart utilizando a técnica ARIMA para auxiliar um investidor em sua tomada de decisão. O investidor busca decidir entre vender as ações adquiridas em 2010, manter as mesmas ou comprar mais ações da empresa. A análise será realizada com dados históricos desde o ano 2000 e o modelo ARIMA será utilizado para fazer previsões.
+
+## Objetivo
+Auxiliar o investidor a:
+- Decidir entre vender, manter ou comprar mais ações com base em previsões de preços futuros.
+- Observar a tendência histórica das ações do Walmart.
+- Utilizar o RMSE (Root Mean Square Error) como métrica de desempenho do modelo.
+
+## Tecnologias Utilizadas
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Statsmodels
+- ARIMA (AutoRegressive Integrated Moving Average)
+- Google Drive API para download de dados
+
+## Como Utilizar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/walmart-stock-prediction.git
