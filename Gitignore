@@ -1,0 +1,24 @@
+
+### `.gitignore`:
+```bash
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente Virtual
+env/
+venv/
+.venv/
+Pipfile.lock
+
+# Dados grandes ou arquivos desnecessários
+Walmart_stock_data.csv
